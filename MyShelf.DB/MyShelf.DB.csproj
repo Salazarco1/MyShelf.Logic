@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyShelf.Logic\MyShelf.Logic.csproj" />
+    <ProjectReference Include="..\MyShelf.UI\MyShelf.UI.csproj" />
+  </ItemGroup>
+
 </Project>
